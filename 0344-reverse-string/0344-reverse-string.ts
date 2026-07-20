@@ -11,7 +11,6 @@ function reverseString(s: string[]): void {
             s[frwd_pointer] = temp; //o at start
             frwd_pointer +=1;
             end_pointer -=1;
-            console.log(s);
         }else{
             break
         }
